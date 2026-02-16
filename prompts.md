@@ -386,3 +386,56 @@ Generate a JUnit 5 test class for CustomerService...
 
 ### Learning:
 AI accelerated test skeleton creation while manual review ensured correctness.
+
+## Prompt 20 – OrderServiceTest
+
+### Prompt Used:
+Generate a JUnit 5 test class for OrderService...
+
+### AI Generated:
+- Mockito setup
+- Basic test cases for service methods
+
+### Manual Improvements:
+- Verified default status is CREATED
+- Ensured proper customer validation test
+- Improved assertions for DTO mapping
+- Verified repository interaction
+
+### Learning:
+AI accelerated complex test structure creation.
+Manual refinement ensured business logic correctness.
+
+## Prompt 21 – Swagger Configuration
+
+### Prompt Used:
+Generate a Spring configuration class named OpenApiConfig...
+
+### AI Generated:
+- @Configuration class
+- OpenAPI bean
+- Title, version, description
+
+### Manual Improvements:
+- Verified minimal configuration
+- Confirmed compatibility with Spring Boot 3
+
+### Learning:
+AI effectively generated Swagger configuration boilerplate.
+Manual review ensured clean structure and no unnecessary code.
+
+
+## Prompt 22 – Swagger 500 Debugging
+
+### Prompt Used:
+I am getting 500 error when accessing /v3/api-docs...
+
+### AI Analysis:
+Identified root cause related to the error
+
+### Fix Applied:
+updated spring doc version to 2.7.0 from 2.5.0
+SpringDoc 2.7.0 is compatible with Spring Boot 3.5.x. The application should now start without the ControllerAdviceBean constructor error.
+
+### Learning:
+AI assisted in faster debugging by analyzing stack trace.
