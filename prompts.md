@@ -439,3 +439,21 @@ SpringDoc 2.7.0 is compatible with Spring Boot 3.5.x. The application should now
 
 ### Learning:
 AI assisted in faster debugging by analyzing stack trace.
+
+### – CORS Configuration for Angular Integration
+# prompt used
+Generate a Spring Boot CORS configuration class named CorsConfig.
+
+AI Generated:
+
+CorsConfig class
+
+Annotated with @Configuration
+
+Defined a WebMvcConfigurer bean
+
+Allowed origin http://localhost:4200
+
+Allowed all HTTP methods
+
+
